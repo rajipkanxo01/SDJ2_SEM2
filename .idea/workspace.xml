@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closed$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Opening.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Opening.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/radiator/Power2State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/radiator/Power2State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/radiator/Power3State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/radiator/Power3State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/radiator/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/radiator/Test.class" afterDir="false" />
-    </list>
+    <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,21 +27,21 @@
     <option name="flattenModules" value="true" />
     <option name="showExcludedFiles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="automaticDoor" />
@@ -161,7 +150,7 @@
       <workItem from="1662452415277" duration="4487000" />
       <workItem from="1662460576800" duration="25000" />
       <workItem from="1662461121722" duration="18000" />
-      <workItem from="1662483837083" duration="7334000" />
+      <workItem from="1662483837083" duration="7991000" />
     </task>
     <servers />
   </component>
