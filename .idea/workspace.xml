@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="" />
+    <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closed$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Closing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Opening.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Opening.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/automaticDoor/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/radiator/Power2State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/radiator/Power2State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/radiator/Power3State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/radiator/Power3State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StatePattern/radiator/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StatePattern/radiator/Test.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,29 +26,33 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2E4Ddtl0dR26t1TnDESZtngY5Hb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
-    <option name="flattenPackages" value="true" />
     <option name="showExcludedFiles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="automaticDoor" />
@@ -47,26 +62,13 @@
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\StatePattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ManPokingBear">
-    <configuration name="ManPokingBear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bearAndMan.ManPokingBear" />
-      <module name="Thread" />
+  <component name="RunManager" selected="Application.RunTrafficLight">
+    <configuration name="RunTrafficLight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trafficLight_V2.RunTrafficLight" />
+      <module name="Observer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bearAndMan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rabbitAndTurtle.Start" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rabbitAndTurtle.*" />
+          <option name="PATTERN" value="trafficLight_V2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="counter.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="counter.Test" />
-      <module name="Thread" />
+    <configuration name="TrafficLight.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrafficLight.Start" />
+      <module name="Observer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="counter.*" />
+          <option name="PATTERN" value="TrafficLight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="phone.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="phone.Test" />
+    <configuration name="radiator.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="radiator.Test" />
       <module name="StatePattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="phone.*" />
+          <option name="PATTERN" value="radiator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trafficLight.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trafficLight.Test" />
+      <module name="Observer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trafficLight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ManPokingBear" />
+        <item itemvalue="Application.RunTrafficLight" />
+        <item itemvalue="Application.trafficLight.Test" />
+        <item itemvalue="Application.radiator.Test" />
+        <item itemvalue="Application.TrafficLight.Start" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.phone.Test" />
-        <item itemvalue="Application.Start" />
-        <item itemvalue="Application.counter.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -142,12 +157,27 @@
       <workItem from="1662305878684" duration="3832000" />
       <workItem from="1662319991233" duration="2182000" />
       <workItem from="1662362450199" duration="1230000" />
-      <workItem from="1662445284432" duration="639000" />
+      <workItem from="1662445284432" duration="6397000" />
+      <workItem from="1662452415277" duration="4487000" />
+      <workItem from="1662460576800" duration="25000" />
+      <workItem from="1662461121722" duration="18000" />
+      <workItem from="1662483837083" duration="7334000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
