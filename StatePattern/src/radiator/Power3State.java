@@ -2,18 +2,20 @@ package radiator;
 
 public class Power3State implements RadiatorState {
     private int POWER = 3;
+    private Thread thread;
 
-
-    public Power3State() {
-        new Thread(() -> {
+    public Power3State(Radiator radiator) {
+        thread = new Thread(() -> {
             try {
                 Thread.sleep(10000);
-                Radiator radiator = new Radiator(new Power2State());
+                turnDown(radiator);
+                System.out.println("State Changed");
             } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                System.out.println("Interrupted");
             }
-        }
-        ).start();
+        });
+        thread.start();
+        thread.setDaemon(true);
     }
 
     @Override
@@ -23,8 +25,7 @@ public class Power3State implements RadiatorState {
 
     @Override
     public void turnDown(Radiator radiator) {
-
-        POWER = 3;
+        thread.interrupt();
         radiator.setPowerState(new Power2State());
     }
 

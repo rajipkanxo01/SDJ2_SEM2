@@ -8,7 +8,10 @@ public class Test {
         radiator.turnUp();
         radiator.getPower();
         radiator.turnUp();
+        radiator.getPower();
         radiator.turnUp();
         radiator.getPower();
+
+
     }
 }

@@ -1,13 +1,17 @@
 package automaticDoor;
 
 public class Opening implements DoorState {
+    private Door door;
 
 
-    public Opening() {
+    public Opening(Door door) {
         new Thread(() -> {
             try {
                 Thread.sleep(1000);
                 System.out.println("Door Opened!");
+                Thread.sleep(2000);
+                System.out.println("Closing Door!");
+                closeDoor(door);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

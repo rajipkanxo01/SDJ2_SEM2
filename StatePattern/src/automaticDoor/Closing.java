@@ -18,7 +18,7 @@ public class Closing implements DoorState {
 
     @Override
     public void openDoor(Door door) {
-        door.setDoorState(new Opening());
+        door.setDoorState(new Opening(door));
     }
 
     @Override
