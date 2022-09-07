@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="" />
+    <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/src/doctorsWaitingRoom/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/src/doctorsWaitingRoom/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/src/doctorsWaitingRoom/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/src/doctorsWaitingRoom/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/src/doctorsWaitingRoom/WaitingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/src/doctorsWaitingRoom/WaitingRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Observer/trafficLight_V2/TrafficLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/trafficLight_V2/TrafficLight.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,26 +29,28 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2E4Ddtl0dR26t1TnDESZtngY5Hb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="showExcludedFiles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="automaticDoor" />
@@ -51,13 +60,13 @@
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\StatePattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunTrafficLight">
-    <configuration name="RunTrafficLight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trafficLight_V2.RunTrafficLight" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doctorsWaitingRoom.Main" />
       <module name="Observer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trafficLight_V2.*" />
+          <option name="PATTERN" value="doctorsWaitingRoom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="automaticDoor.Test" />
-      <module name="StatePattern" />
+    <configuration name="RunTrafficLight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trafficLight_V2.RunTrafficLight" />
+      <module name="Observer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="automaticDoor.*" />
+          <option name="PATTERN" value="trafficLight_V2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.RunTrafficLight" />
         <item itemvalue="Application.trafficLight.Test" />
         <item itemvalue="Application.radiator.Test" />
         <item itemvalue="Application.TrafficLight.Start" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +159,10 @@
       <workItem from="1662452415277" duration="4487000" />
       <workItem from="1662460576800" duration="25000" />
       <workItem from="1662461121722" duration="18000" />
-      <workItem from="1662483837083" duration="7991000" />
+      <workItem from="1662483837083" duration="8409000" />
+      <workItem from="1662530763352" duration="1164000" />
+      <workItem from="1662543233292" duration="454000" />
+      <workItem from="1662569166103" duration="5743000" />
     </task>
     <servers />
   </component>
