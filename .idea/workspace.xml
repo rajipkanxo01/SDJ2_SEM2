@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/src/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/counter/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/src/counter/CounterIncrement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/counter/CounterIncrement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/src/counter/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/counter/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/src/rabbitAndTurtle/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/rabbitAndTurtle/Rabbit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/src/rabbitAndTurtle/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/rabbitAndTurtle/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Observer/doctorsWaitingRoom/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Observer/doctorsWaitingRoom/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/doctorsWaitingRoom/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/rabbitAndTurtle/Rabbit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/rabbitAndTurtle/Rabbit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/rabbitAndTurtle/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/rabbitAndTurtle/Start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/counterV2_TryLock/TryLockCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/counterV2_TryLock/TryLockCounter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,13 +60,13 @@
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\StatePattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doctorsWaitingRoom.Main" />
-      <module name="Observer" />
+  <component name="RunManager" selected="Application.RunComputer">
+    <configuration name="RunComputer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="computer.RunComputer" />
+      <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doctorsWaitingRoom.*" />
+          <option name="PATTERN" value="computer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunComputer" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.counter.Test" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +164,7 @@
       <workItem from="1662543233292" duration="454000" />
       <workItem from="1662569166103" duration="6474000" />
       <workItem from="1662617103449" duration="952000" />
-      <workItem from="1662619762071" duration="5075000" />
+      <workItem from="1662619762071" duration="7961000" />
     </task>
     <servers />
   </component>
