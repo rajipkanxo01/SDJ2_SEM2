@@ -5,7 +5,7 @@ public class Start {
         Point point = new Point();
         Turtle turtle = new Turtle(point);
         Thread turtleThread = new Thread(turtle);
-        Thread rabbitThread = new Thread(new Rabbit(point));
+        Thread rabbitThread = new Thread(new Rabbit(point, turtle));
 
         turtleThread.start();
         rabbitThread.start();

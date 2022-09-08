@@ -1,5 +1,7 @@
 package counter;
 
+import java.util.concurrent.locks.Lock;
+
 public class CounterIncrement implements Runnable {
     private Counter counter;
 
@@ -9,15 +11,14 @@ public class CounterIncrement implements Runnable {
     }
 
     @Override
-    // Incrementing the counter by 1 million times.
+
     public void run() {
-        for (int i = 0; i < 1000000; i++) {
-            counter.update();
+        for (int i = 0; i < 1000; i++) {
+            counter.updateA();
+            counter.updateB();
         }
 
-        System.out.println(counter.getCount());
-        if (counter.getCount()==1000000) {
-            System.out.println("Verified");
-        }
+        System.out.println(counter.getCountA());
+        System.out.println(counter.getCountB());
     }
 }

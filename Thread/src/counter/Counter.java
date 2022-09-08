@@ -1,19 +1,41 @@
 package counter;
 
-public class Counter  {
-    private int count;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Counter {
+    private int countA;
+    private int countB;
+
+    private Lock LockA = new ReentrantLock();
+    private Lock LockB = new ReentrantLock();
 
     public Counter() {
-        count = 0;
+        countA = 0;
+        countB = 0;
     }
 
-    public void update() {
-
-        count++;
+    public void updateA() {
+        synchronized (LockA) {
+            countA++;
+        }
     }
 
-    public int getCount() {
-        return count;
+    public void updateB() {
+        synchronized (LockB) {
+            countB++;
+        }
     }
 
+    public int getCountA() {
+        synchronized (LockA) {
+            return countA;
+        }
+    }
+
+    public int getCountB() {
+        synchronized (LockB) {
+            return countB;
+        }
+    }
 }
