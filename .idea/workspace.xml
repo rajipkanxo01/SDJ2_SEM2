@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Thread/src/incrementAndDecrement/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/incrementAndDecrement/CounterDecrementer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/incrementAndDecrement/CounterIncrementer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/src/incrementAndDecrement/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/counterV2_TryLock/TryLockCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/counterV2_TryLock/TryLockCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/src/soccerMatch/Medic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/src/soccerMatch/Medic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +44,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Thread/src/counterV2_TryLock",
+    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "two.files.diff.last.used.file": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,8 +64,25 @@
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\StatePattern\src" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\StatePattern" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="soccerMatch" />
+      <recent name="birdWatching" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.RunComputer">
+  <component name="RunManager" selected="Application.StartSoccerMatch">
+    <configuration name="RunBirdWatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="birdWatching.RunBirdWatcher" />
+      <module name="Observer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="birdWatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunComputer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="computer.RunComputer" />
       <module name="Thread" />
@@ -74,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rabbitAndTurtle.Start" />
-      <module name="Thread" />
+    <configuration name="StartSoccerMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="soccerMatch.StartSoccerMatch" />
+      <module name="Observer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rabbitAndTurtle.*" />
+          <option name="PATTERN" value="soccerMatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,25 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="counter.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="counter.Test" />
+    <configuration name="incrementAndDecrement.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="incrementAndDecrement.Test" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="counterV2_TryLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doctorsWaitingRoom.test" />
-      <module name="Observer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doctorsWaitingRoom.*" />
+          <option name="PATTERN" value="incrementAndDecrement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartSoccerMatch" />
+        <item itemvalue="Application.RunBirdWatcher" />
+        <item itemvalue="Application.incrementAndDecrement.Test" />
         <item itemvalue="Application.RunComputer" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.counter.Test" />
-        <item itemvalue="Application.Start" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +173,11 @@
       <workItem from="1662543233292" duration="454000" />
       <workItem from="1662569166103" duration="6474000" />
       <workItem from="1662617103449" duration="952000" />
-      <workItem from="1662619762071" duration="7961000" />
+      <workItem from="1662619762071" duration="12538000" />
+      <workItem from="1662638993402" duration="3110000" />
+      <workItem from="1662642981428" duration="735000" />
+      <workItem from="1662820064366" duration="130000" />
+      <workItem from="1662824460239" duration="3945000" />
     </task>
     <servers />
   </component>
