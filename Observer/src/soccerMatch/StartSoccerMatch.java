@@ -8,6 +8,7 @@ public class StartSoccerMatch {
         Refree refree = new Refree(soccerMatch);
         AngryCoach angryCoach = new AngryCoach(soccerMatch);
         Medic medic = new Medic(soccerMatch);
+        ScoreBoard scoreBoard = new ScoreBoard(soccerMatch);
         soccerMatch.startMatch();
     }
 }
