@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Classroom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Classroom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/Observer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/Observer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/soccerMatch/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/src/soccerMatch/ScoreBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/soccerMatch/StartSoccerMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/src/soccerMatch/StartSoccerMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Observer/soccerMatch/ScoreBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/soccerMatch/ScoreBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Observer/soccerMatch/SoccerMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/soccerMatch/SoccerMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Observer/soccerMatch/StartSoccerMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/soccerMatch/StartSoccerMatch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,22 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/pdlra/AppData/Local/SceneBuilder/SceneBuilder.exe",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "two.files.diff.last.used.file": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pdlra/AppData/Local/SceneBuilder/SceneBuilder.exe&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="automaticDoor" />
@@ -78,13 +69,26 @@
       <recent name="birdWatching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartTimestampApp">
+  <component name="RunManager" selected="Application.RunUpperCaseApp">
     <configuration name="RunApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataRepresentation.RunApp" />
       <module name="Observer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DataRepresentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunUpperCaseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="upperCaseConverter.RunUpperCaseApp" />
+      <module name="MVVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="upperCaseConverter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,26 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doctorsWaitingRoom.test" />
-      <module name="Observer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doctorsWaitingRoom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunUpperCaseApp" />
         <item itemvalue="Application.StartTimestampApp" />
         <item itemvalue="Application.RunApp" />
         <item itemvalue="Application.StartPieChartApp" />
         <item itemvalue="Application.StartSoccerMatch" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +182,9 @@
       <workItem from="1662978900581" duration="575000" />
       <workItem from="1662982499759" duration="580000" />
       <workItem from="1663011547147" duration="223000" />
-      <workItem from="1663055247593" duration="3718000" />
+      <workItem from="1663055247593" duration="5469000" />
+      <workItem from="1663098168552" duration="2022000" />
+      <workItem from="1663144848216" duration="2043000" />
     </task>
     <servers />
   </component>
