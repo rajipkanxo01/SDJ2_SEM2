@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +42,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pdlra/AppData/Local/SceneBuilder/SceneBuilder.exe&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom/Sockets/src/upperCaseLowerCase&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
     &quot;two.files.diff.last.used.file&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java&quot;
   }
 }</component>
@@ -54,6 +56,8 @@
       <recent name="automaticDoor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets\src\upperCaseLowerCase" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\pieChartMVVM" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\simpleMVVM" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Observer\src\Thermometer_v1" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Thread\src\counterV2_TryLock" />
@@ -69,13 +73,13 @@
       <recent name="birdWatching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunUpperCaseApp">
-    <configuration name="RunApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataRepresentation.RunApp" />
-      <module name="Observer" />
+  <component name="RunManager" selected="Application.RunChatClient">
+    <configuration name="RunCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calculator.client.RunCalculator" />
+      <module name="Sockets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataRepresentation.*" />
+          <option name="PATTERN" value="calculator.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunUpperCaseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="upperCaseConverter.RunUpperCaseApp" />
-      <module name="MVVM" />
+    <configuration name="RunChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oneToOneChatSystem.client.RunChatClient" />
+      <module name="Sockets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="upperCaseConverter.*" />
+          <option name="PATTERN" value="oneToOneChatSystem.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartPieChartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PieChartMVVM.src.StartPieChartApp" />
-      <module name="Observer" />
+    <configuration name="RunChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oneToOneChatSystem.server.RunChatServer" />
+      <module name="Sockets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PieChartMVVM.src.*" />
+          <option name="PATTERN" value="oneToOneChatSystem.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartSoccerMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="soccerMatch.StartSoccerMatch" />
-      <module name="Observer" />
+    <configuration name="calculator.server.RunServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calculator.server.RunServer" />
+      <module name="Sockets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="soccerMatch.*" />
+          <option name="PATTERN" value="calculator.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartTimestampApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleMVVM.StartTimestampApp" />
-      <module name="MVVM" />
+    <configuration name="loginSystem.client.RunClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loginSystem.client.RunClient" />
+      <module name="Sockets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simpleMVVM.*" />
+          <option name="PATTERN" value="loginSystem.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,13 +139,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.RunCalculator" />
+      <item itemvalue="Application.RunChatClient" />
+      <item itemvalue="Application.RunChatServer" />
+      <item itemvalue="Application.calculator.server.RunServer" />
+      <item itemvalue="Application.loginSystem.client.RunClient" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RunUpperCaseApp" />
-        <item itemvalue="Application.StartTimestampApp" />
-        <item itemvalue="Application.RunApp" />
-        <item itemvalue="Application.StartPieChartApp" />
-        <item itemvalue="Application.StartSoccerMatch" />
+        <item itemvalue="Application.RunChatClient" />
+        <item itemvalue="Application.RunChatServer" />
+        <item itemvalue="Application.RunCalculator" />
+        <item itemvalue="Application.calculator.server.RunServer" />
+        <item itemvalue="Application.loginSystem.client.RunClient" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +195,15 @@
       <workItem from="1663011547147" duration="223000" />
       <workItem from="1663055247593" duration="5469000" />
       <workItem from="1663098168552" duration="2022000" />
-      <workItem from="1663144848216" duration="2043000" />
+      <workItem from="1663144848216" duration="2180000" />
+      <workItem from="1663150412885" duration="1074000" />
+      <workItem from="1663152073037" duration="50000" />
+      <workItem from="1663169847175" duration="4262000" />
+      <workItem from="1663178766053" duration="1201000" />
+      <workItem from="1663226513329" duration="1679000" />
+      <workItem from="1663230051089" duration="3356000" />
+      <workItem from="1663237476496" duration="4737000" />
+      <workItem from="1663256026707" duration="9274000" />
     </task>
     <servers />
   </component>
