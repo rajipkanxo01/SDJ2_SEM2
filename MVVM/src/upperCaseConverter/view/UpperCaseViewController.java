@@ -17,11 +17,13 @@ public class UpperCaseViewController {
 
     public void onSubmitButton(ActionEvent actionEvent) {
         upperCaseVM.convert();
+        upperCaseVM.chaængeReq();
     }
 
     public void init(UpperCaseViewModel upperCaseVM) {
         replyTextField.setDisable(true);
         this.upperCaseVM = upperCaseVM;
+//        upperCaseVM.requestProperty().bind(requestTextField.textProperty());
         requestTextField.textProperty().bindBidirectional(upperCaseVM.requestProperty());
         replyTextField.textProperty().bind(upperCaseVM.replyProperty());
         errorLabel.textProperty().bind(upperCaseVM.errorProperty());

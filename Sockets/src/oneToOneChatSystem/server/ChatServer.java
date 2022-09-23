@@ -22,7 +22,7 @@ public class ChatServer {
                 while (true) {
                     String msgFromClient = (String) in.readObject();
 
-                    if (msgFromClient.equals("emd")) {
+                    if (msgFromClient.equals("end")) {
                         System.out.println("Client Disconnected");
                         socket.close();
                     }

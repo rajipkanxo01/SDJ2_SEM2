@@ -41,7 +41,7 @@ public class LoginServer {
                 out.writeObject("Successfully logged in");
             }
         } catch (IOException | ClassNotFoundException e) {
-            System.err.println("Disconnected");
+            e.printStackTrace();
         }
     }
 }

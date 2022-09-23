@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class ChatClient {
     public void startChat() {
         try {
-            Socket socket = new Socket("localhost", 0204);
+            Socket socket = new Socket("10.154.210.27", 2222);
 
             ObjectOutputStream out = new ObjectOutputStream(socket.getOutputStream());
             ObjectInputStream in = new ObjectInputStream(socket.getInputStream());

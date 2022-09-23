@@ -7,6 +7,7 @@ import upperCaseConverter.model.TextConverterModel;
 
 public class UpperCaseViewModel {
     private TextConverter textConverter;
+
     private StringProperty request;
     private StringProperty reply;
     private StringProperty error;
@@ -20,6 +21,7 @@ public class UpperCaseViewModel {
 
     public void convert() {
         String input = request.get();
+
         if (input != null && !input.equals("")) {
             String result = textConverter.toUpperCaseText(input);
             reply.set(result);
@@ -50,5 +52,10 @@ public class UpperCaseViewModel {
 
     public StringProperty errorProperty() {
         return error;
+    }
+
+
+    public void chaængeReq(){
+        request.setValue("Change");
     }
 }

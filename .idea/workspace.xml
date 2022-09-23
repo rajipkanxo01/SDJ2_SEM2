@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/PieChartApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/StartPieChartApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/model/DataModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/model/DataModelManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/model/ModelFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/pieChartMVVM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/view/ViewHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/view/piechart/PieChartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/view/piechart/PieChartView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/viewmodel/ViewModelFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/pieChartMVVM/viewmodel/piechart/PieChartViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/upperCaseConverter/view/UpperCaseViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/upperCaseConverter/view/UpperCaseViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/upperCaseConverter/view/UpperCaseViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/upperCaseConverter/view/UpperCaseViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets/src/loginSystem/server/LoginServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets/src/loginSystem/server/LoginServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets/src/oneToOneChatSystem/client/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets/src/oneToOneChatSystem/client/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets/src/oneToOneChatSystem/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets/src/oneToOneChatSystem/server/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/ServingBeer/Bar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/ServingBeer/Beer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/pieChartMVVM/PieChartApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/pieChartMVVM/StartPieChartApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/pieChartMVVM/model/DataModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/pieChartMVVM/model/DataModelManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/pieChartMVVM/model/ModelFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/pieChartMVVM/view/ViewHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/pieChartMVVM/view/piechart/PieChartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/pieChartMVVM/view/piechart/PieChartView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/pieChartMVVM/viewmodel/ViewModelFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/pieChartMVVM/viewmodel/piechart/PieChartViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/upperCaseConverter/view/UpperCaseViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVVM/upperCaseConverter/view/UpperCaseViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/upperCaseConverter/view/UpperCaseViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVVM/upperCaseConverter/view/UpperCaseViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/loginSystem/server/LoginServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/loginSystem/server/LoginServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/oneToOneChatSystem/client/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/oneToOneChatSystem/client/ChatClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/oneToOneChatSystem/server/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/oneToOneChatSystem/server/ChatServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,51 +70,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom/Sockets/src/upperCaseLowerCase&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/MVVM/src/taskList",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "two.files.diff.last.used.file": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="taskList.model" />
+      <recent name="thermometer.temperature.core" />
       <recent name="automaticDoor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\taskList" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets\src\upperCaseLowerCase" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\pieChartMVVM" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\simpleMVVM" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Observer\src\Thermometer_v1" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Thread\src\counterV2_TryLock" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\taskList\view\all" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Observer\src" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\StatePattern\src" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\StatePattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="taskList.util" />
+      <recent name="thermometer.temperature.mediator" />
       <recent name="DataRepresentation" />
       <recent name="soccerMatch" />
       <recent name="birdWatching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunChatClient">
-    <configuration name="RunCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calculator.client.RunCalculator" />
-      <module name="Sockets" />
+  <component name="RunManager" selected="Application.RunTaskListApp">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thermometer.Main" />
+      <module name="Observer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculator.client.*" />
+          <option name="PATTERN" value="thermometer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oneToOneChatSystem.client.RunChatClient" />
-      <module name="Sockets" />
+    <configuration name="RunTaskListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taskList.RunTaskListApp" />
+      <module name="MVVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oneToOneChatSystem.client.*" />
+          <option name="PATTERN" value="taskList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oneToOneChatSystem.server.RunChatServer" />
-      <module name="Sockets" />
+    <configuration name="RunUpperCaseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="upperCaseConverter.RunUpperCaseApp" />
+      <module name="MVVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oneToOneChatSystem.server.*" />
+          <option name="PATTERN" value="upperCaseConverter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculator.server.RunServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calculator.server.RunServer" />
-      <module name="Sockets" />
+    <configuration name="StartTimestampApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simpleMVVM.StartTimestampApp" />
+      <module name="MVVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculator.server.*" />
+          <option name="PATTERN" value="simpleMVVM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="loginSystem.client.RunClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loginSystem.client.RunClient" />
-      <module name="Sockets" />
+    <configuration name="TaskListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taskList.TaskListApp" />
+      <module name="MVVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loginSystem.client.*" />
+          <option name="PATTERN" value="taskList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,19 +180,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RunCalculator" />
-      <item itemvalue="Application.RunChatClient" />
-      <item itemvalue="Application.RunChatServer" />
-      <item itemvalue="Application.calculator.server.RunServer" />
-      <item itemvalue="Application.loginSystem.client.RunClient" />
+      <item itemvalue="Application.RunTaskListApp" />
+      <item itemvalue="Application.StartTimestampApp" />
+      <item itemvalue="Application.TaskListApp" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.RunUpperCaseApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RunChatClient" />
-        <item itemvalue="Application.RunChatServer" />
-        <item itemvalue="Application.RunCalculator" />
-        <item itemvalue="Application.calculator.server.RunServer" />
-        <item itemvalue="Application.loginSystem.client.RunClient" />
+        <item itemvalue="Application.RunTaskListApp" />
+        <item itemvalue="Application.RunUpperCaseApp" />
+        <item itemvalue="Application.TaskListApp" />
+        <item itemvalue="Application.StartTimestampApp" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +243,21 @@
       <workItem from="1663226513329" duration="1679000" />
       <workItem from="1663230051089" duration="3356000" />
       <workItem from="1663237476496" duration="4737000" />
-      <workItem from="1663256026707" duration="9274000" />
+      <workItem from="1663256026707" duration="9828000" />
+      <workItem from="1663274002108" duration="26000" />
+      <workItem from="1663319634209" duration="390000" />
+      <workItem from="1663320205135" duration="7000" />
+      <workItem from="1663325582127" duration="5175000" />
+      <workItem from="1663356362220" duration="2804000" />
+      <workItem from="1663416216927" duration="20000" />
+      <workItem from="1663573702459" duration="150000" />
+      <workItem from="1663615187263" duration="596000" />
+      <workItem from="1663661140162" duration="1203000" />
+      <workItem from="1663699050265" duration="388000" />
+      <workItem from="1663847378748" duration="266000" />
+      <workItem from="1663867736841" duration="796000" />
+      <workItem from="1663869129443" duration="4883000" />
+      <workItem from="1663925533285" duration="23168000" />
     </task>
     <servers />
   </component>
