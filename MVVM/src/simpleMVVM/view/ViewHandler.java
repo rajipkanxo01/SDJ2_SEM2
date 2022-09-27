@@ -1,7 +1,7 @@
 package simpleMVVM.view;
 
 
-//import viewmodel.ViewModelFactory;
+//import pieChart.core.ViewModelFactory;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

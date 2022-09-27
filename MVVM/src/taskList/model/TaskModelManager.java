@@ -1,10 +1,10 @@
 package taskList.model;
 
-import javax.xml.crypto.Data;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -16,6 +16,8 @@ public class TaskModelManager implements TaskModel {
     public void addTask(String owner, String description) {
         Task task = new Task(owner, description, calcTimeStamp());
         tasks.add(task);
+
+        System.out.println(taskSupport.hasListeners("TaskAdded"));
         taskSupport.firePropertyChange("TaskAdded", null, task);
     }
 

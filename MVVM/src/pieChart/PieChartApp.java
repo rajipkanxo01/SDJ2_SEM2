@@ -1,29 +1,22 @@
-package simpleMVVM;
+package pieChart;
 
+import pieChart.core.ModelFactory;
+import pieChart.core.ViewHandler;
+import pieChart.core.ViewModelFactory;
 import javafx.application.Application;
 import javafx.stage.Stage;
-import simpleMVVM.model.DataModelManager;
-import simpleMVVM.model.ModelFactory;
-import simpleMVVM.view.ViewHandler;
-import simpleMVVM.viewmodel.ViewModelFactory;
-
-//import pieChart.core.ModelFactory;
-
-//import pieChart.core.ViewModelFactory;
+import pieChart.model.DataModelManager;
 
 import java.util.Random;
 
-@SuppressWarnings("ALL")
-public class TimestampApp extends Application {
+
+public class PieChartApp extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-//        DataModel model = new DataModelManager();
-//        TimestampViewModel viewModel =new TimestampViewModel(model);
-//        ViewHandler viewHandler = new ViewHandler(stage, viewModel);
         ModelFactory mf = new ModelFactory();
         ViewModelFactory viewModelFactory = new ViewModelFactory(mf);
-        ViewHandler viewHandler = new ViewHandler(stage, viewModelFactory);
+        ViewHandler viewHandler = new ViewHandler(viewModelFactory);
         viewHandler.start();
 
         runAutoUpdate((DataModelManager) mf.getDataModel());
@@ -35,7 +28,8 @@ public class TimestampApp extends Application {
             while (true) {
                 m.recalculateData();
                 try {
-                    Thread.sleep(r.nextInt(500) + 1000);
+                    Thread.sleep(10000);
+//                    Thread.sleep(r.nextInt(500) + 1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

@@ -8,7 +8,7 @@ import simpleMVVM.viewmodel.TimestampViewModel;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-//import viewmodel.ViewModelFactory;
+//import pieChart.core.ViewModelFactory;
 
 public class TimestampController{
 

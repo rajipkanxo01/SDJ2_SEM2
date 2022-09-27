@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="442.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pieChart.view.barChart.BarChartViewController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Last Updated:" />
+      <Label fx:id="lastUpdatedLabel" layoutX="104.0" layoutY="14.0" prefHeight="18.0" prefWidth="146.0" />
+      <Button layoutX="14.0" layoutY="43.0" mnemonicParsing="false" onAction="#onUpdateButton" text="Update" />
+      <BarChart fx:id="barChart" layoutX="24.0" layoutY="80.0" prefHeight="322.0" prefWidth="555.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

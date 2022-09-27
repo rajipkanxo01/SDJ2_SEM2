@@ -4,7 +4,6 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import taskList.model.Task;
 import taskList.model.TaskModel;
-import taskList.model.TaskModelManager;
 
 import java.beans.PropertyChangeEvent;
 
@@ -34,6 +33,7 @@ public class AllTaskViewModel {
 
     // to display task in tableview from controller which can retrieve the list
     public ObservableList<Task> getTasks() {
+        System.out.println(tasks.size());
         return tasks;
     }
 }

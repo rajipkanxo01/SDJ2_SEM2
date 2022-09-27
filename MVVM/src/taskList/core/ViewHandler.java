@@ -56,11 +56,11 @@ public class ViewHandler {
             Parent root = loadFXMLFiles("../view/add/AddTaskView.fxml", loader);
             AddTaskViewController controller = loader.getController();
             controller.init(viewModelFactory.getAddTaskViewModel(), this);
-            allTaskViewScene = new Scene(root);
+            addTaskViewScene = new Scene(root);
         }
         stage.setTitle("View Task");
         stage.setResizable(false);
-        stage.setScene(allTaskViewScene);
+        stage.setScene(addTaskViewScene);
     }
 
     public void openGetNextTaskView() {
