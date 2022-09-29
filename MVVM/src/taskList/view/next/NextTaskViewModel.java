@@ -24,7 +24,6 @@ public class NextTaskViewModel {
         description.setValue(task.getDescription());
         creator.setValue(task.getOwner());
         date.setValue(task.getTimeCreated());
-
     }
 
     public void clear() {
