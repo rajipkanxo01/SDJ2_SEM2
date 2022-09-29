@@ -4,22 +4,33 @@
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/taskList/view/next/NextTaskViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/taskList/view/next/NextTaskViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/MyApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/external/Thermometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/src/temperaturePresenter/external/Thermometer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/temperature/mediator/PropertyChangeSubject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/temperature/mediator/TemperatureModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/temperature/mediator/TemperatureModelManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/temperature/model/DateTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/temperature/model/Temperature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/temperature/model/TemperatureList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/temperature/view/TemperatureController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/temperature/view/TemperatureView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/thermometer/temperature/view/ViewHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/taskList/model/TaskModelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVVM/taskList/model/TaskModelManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/taskList/view/all/AllTaskViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVVM/taskList/view/all/AllTaskViewModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/taskList/view/next/NextTaskViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVVM/taskList/view/next/NextTaskViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/external/Thermometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/external/Thermometer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/mediator/PropertyChangeSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/mediator/PropertyChangeSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/mediator/TemperatureModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/mediator/TemperatureModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/mediator/TemperatureModelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/mediator/TemperatureModelManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/model/DateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/model/Temperature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/model/TemperatureList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/view/TemperatureView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/view/temperature/TemperatureView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/view/TemperatureViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/view/temperature/TemperatureViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/view/ViewHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/core/ViewHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/src/temperaturePresenter/temperature/view/TemperatureViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/src/temperaturePresenter/temperature/view/TemperatureViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/MyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/MyApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/external/Thermometer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/external/Thermometer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/mediator/PropertyChangeSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/mediator/TemperatureModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/mediator/TemperatureModelManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/model/DateTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/model/Temperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/model/TemperatureList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/view/TemperatureView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/view/TemperatureViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/view/ViewHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/MyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/MyApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/mediator/TemperatureModelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/mediator/TemperatureModelManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/view/TemperatureView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/view/TemperatureView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/view/TemperatureViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/view/TemperatureViewController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +66,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Sockets/src/message",
+    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Sockets/src/echoMultiClient",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.selected.configurable": "terminal",
     "two.files.diff.last.used.file": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java"
   }
 }]]></component>
@@ -73,13 +85,14 @@
       <recent name="automaticDoor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets\src\echoMultiClient" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\temperaturePresenter" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Observer\src" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets\src\message" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Observer\src\temperaturePresenter\external" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\taskList" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets\src\upperCaseLowerCase" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\temperaturePresenter\view\temperature" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\taskList\view\all" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Observer\src" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\StatePattern\src" />
@@ -93,7 +106,7 @@
       <recent name="DataRepresentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.echoMultiClient.echoClient.RunClient">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="temperaturePresenter.Main" />
       <module name="MVVM" />
@@ -120,12 +133,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunTaskListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="taskList.RunTaskListApp" />
-      <module name="MVVM" />
+    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="temperaturePresenter.MyApplication" />
+      <module name="Observer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taskList.*" />
+          <option name="PATTERN" value="temperaturePresenter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartEchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="echoMultiClient.echoServer.StartEchoServer" />
+      <module name="Sockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="echoMultiClient.echoServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="echoMultiClient.echoClient.RunClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="echoMultiClient.echoClient.RunClient" />
+      <module name="Sockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="echoMultiClient.echoClient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,46 +185,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="toUpperCaseMultiClients.client.StartClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="toUpperCaseMultiClients.client.StartClient" />
-      <module name="Sockets" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="toUpperCaseMultiClients.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="toUpperCaseMultiClients.server.StartServer" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="toUpperCaseMultiClients.server.StartServer" />
-      <module name="Sockets" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="toUpperCaseMultiClients.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.toUpperCaseMultiClients.client.StartClient" />
-      <item itemvalue="Application.toUpperCaseMultiClients.server.StartServer" />
+      <item itemvalue="Application.echoMultiClient.echoClient.RunClient" />
+      <item itemvalue="Application.StartEchoServer" />
+      <item itemvalue="Application.MyApplication" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.temperaturePresenter.Main" />
-      <item itemvalue="Application.RunTaskListApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.echoMultiClient.echoClient.RunClient" />
+        <item itemvalue="Application.StartEchoServer" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.toUpperCaseMultiClients.client.StartClient" />
-        <item itemvalue="Application.toUpperCaseMultiClients.server.StartServer" />
         <item itemvalue="Application.temperaturePresenter.Main" />
-        <item itemvalue="Application.RunTaskListApp" />
+        <item itemvalue="Application.MyApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +273,13 @@
       <workItem from="1664362443028" duration="655000" />
       <workItem from="1664364035023" duration="5576000" />
       <workItem from="1664372079728" duration="5324000" />
-      <workItem from="1664431800727" duration="9284000" />
+      <workItem from="1664431800727" duration="16842000" />
+      <workItem from="1664458563793" duration="2233000" />
+      <workItem from="1664466300674" duration="2179000" />
+      <workItem from="1664468861988" duration="746000" />
+      <workItem from="1664469652942" duration="26000" />
+      <workItem from="1664469834262" duration="1845000" />
+      <workItem from="1664489288489" duration="2197000" />
     </task>
     <servers />
   </component>

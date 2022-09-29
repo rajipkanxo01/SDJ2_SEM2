@@ -2,10 +2,12 @@ package temperaturePresenter;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
+import temperaturePresenter.core.ModelFactory;
+import temperaturePresenter.core.ViewModelFactory;
 import temperaturePresenter.external.Thermometer;
-import temperaturePresenter.temperature.mediator.TemperatureModel;
-import temperaturePresenter.temperature.mediator.TemperatureModelManager;
-import temperaturePresenter.temperature.view.ViewHandler;
+import temperaturePresenter.mediator.TemperatureModel;
+import temperaturePresenter.mediator.TemperatureModelManager;
+import temperaturePresenter.core.ViewHandler;
 
 public class MyApplication extends Application
 {
@@ -23,7 +25,9 @@ public class MyApplication extends Application
     thread2.start();
 
     // View
-    ViewHandler view = new ViewHandler(model);
-    view.start(primaryStage);
+    ModelFactory modelFactory = new ModelFactory();
+    ViewModelFactory viewModelFactory = new ViewModelFactory(modelFactory);
+    ViewHandler view = new ViewHandler(viewModelFactory);
+    view.start();
   }
 }

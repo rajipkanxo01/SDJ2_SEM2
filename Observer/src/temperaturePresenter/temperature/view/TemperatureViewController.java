@@ -53,7 +53,7 @@ public class TemperatureViewController implements PropertyChangeListener {
         if (thermometerId == null) {
             Temperature t1 = model.getLastInsertedTemperature("01");
             Temperature t2 = model.getLastInsertedTemperature("11");
-            outputLabel.setText(t2.toString() + "\n" + t1.toString());
+            outputLabel.setText(t1.toString()+ "\n" + t2.toString());
         } else if (thermometerId.equals("01")) {
             outputLabel.setText(model.getLastInsertedTemperature("01").toString());
         } else if (thermometerId.equals("11")) {

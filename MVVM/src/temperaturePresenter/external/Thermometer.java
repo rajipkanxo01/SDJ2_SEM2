@@ -1,6 +1,6 @@
 package temperaturePresenter.external;
 
-import temperaturePresenter.temperature.mediator.TemperatureModel;
+import temperaturePresenter.mediator.TemperatureModel;
 
 public class Thermometer implements Runnable {
     private double t; // last measured temperature
@@ -36,7 +36,7 @@ public class Thermometer implements Runnable {
             t = temperature(t,2,d,0,6);
             temperatureModel.addTemperature(id,t);
             try {
-                Thread.sleep(6000);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
