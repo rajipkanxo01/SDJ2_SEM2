@@ -2,35 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sockets/src/chatExampleMulti/client/ChatClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/MyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/external/Thermometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/external/Thermometer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/mediator/PropertyChangeSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/mediator/PropertyChangeSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/mediator/TemperatureModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/mediator/TemperatureModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/mediator/TemperatureModelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/mediator/TemperatureModelManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/model/DateTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/model/Temperature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/model/TemperatureList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/view/TemperatureView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/view/temperature/TemperatureView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/view/TemperatureViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/view/temperature/TemperatureViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/temperature/view/ViewHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/src/temperaturePresenter/core/ViewHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/src/temperaturePresenter/temperature/view/TemperatureViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/src/temperaturePresenter/temperature/view/TemperatureViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/MyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/MyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/external/Thermometer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/external/Thermometer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/mediator/PropertyChangeSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/mediator/TemperatureModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/mediator/TemperatureModelManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/model/DateTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/model/Temperature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/model/TemperatureList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/view/TemperatureView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/view/TemperatureViewController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/temperature/view/ViewHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/MyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/MyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/mediator/TemperatureModelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/mediator/TemperatureModelManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/view/TemperatureView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/view/TemperatureView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/view/TemperatureViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Observer/temperaturePresenter/temperature/view/TemperatureViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets/src/toUpperCaseMultiClients/client/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets/src/toUpperCaseMultiClients/client/StartClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets/src/toUpperCaseMultiClients/server/ConnectionPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets/src/toUpperCaseMultiClients/server/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets/src/toUpperCaseMultiClients/server/ServerSocketHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets/src/toUpperCaseMultiClients/server/StartServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets/src/toUpperCaseMultiClients/utils/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/echoMultiClient/echoServer/ServerSocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/echoMultiClient/echoServer/ServerSocketHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/toUpperCaseMultiClients/client/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/toUpperCaseMultiClients/client/StartClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/toUpperCaseMultiClients/server/ConnectionPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/toUpperCaseMultiClients/server/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/toUpperCaseMultiClients/server/ServerSocketHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/toUpperCaseMultiClients/server/StartServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets/toUpperCaseMultiClients/utils/Message.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +62,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "two.files.diff.last.used.file": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java"
   }
 }]]></component>
@@ -106,7 +94,7 @@
       <recent name="DataRepresentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.echoMultiClient.echoClient.RunClient">
+  <component name="RunManager" selected="Application.chatExampleMulti.client.StartChatClient">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="temperaturePresenter.Main" />
       <module name="MVVM" />
@@ -133,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temperaturePresenter.MyApplication" />
-      <module name="Observer" />
+    <configuration name="StartChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chatExampleMulti.server.StartChatServer" />
+      <module name="Sockets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temperaturePresenter.*" />
+          <option name="PATTERN" value="chatExampleMulti.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,6 +147,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chatExampleMulti.client.StartChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chatExampleMulti.client.StartChatClient" />
+      <module name="Sockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chatExampleMulti.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="echoMultiClient.echoClient.RunClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="echoMultiClient.echoClient.RunClient" />
       <module name="Sockets" />
@@ -172,33 +173,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temperaturePresenter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temperaturePresenter.Main" />
-      <module name="Observer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="temperaturePresenter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.chatExampleMulti.client.StartChatClient" />
+      <item itemvalue="Application.StartChatServer" />
       <item itemvalue="Application.echoMultiClient.echoClient.RunClient" />
       <item itemvalue="Application.StartEchoServer" />
-      <item itemvalue="Application.MyApplication" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.temperaturePresenter.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chatExampleMulti.client.StartChatClient" />
+        <item itemvalue="Application.StartChatServer" />
         <item itemvalue="Application.echoMultiClient.echoClient.RunClient" />
         <item itemvalue="Application.StartEchoServer" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.temperaturePresenter.Main" />
-        <item itemvalue="Application.MyApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +267,8 @@
       <workItem from="1664468861988" duration="746000" />
       <workItem from="1664469652942" duration="26000" />
       <workItem from="1664469834262" duration="1845000" />
-      <workItem from="1664489288489" duration="2197000" />
+      <workItem from="1664489288489" duration="3588000" />
+      <workItem from="1664650310823" duration="3806000" />
     </task>
     <servers />
   </component>
