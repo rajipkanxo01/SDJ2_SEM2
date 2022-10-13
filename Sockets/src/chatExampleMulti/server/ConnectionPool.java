@@ -8,6 +8,7 @@ import java.util.List;
 public class ConnectionPool {
     private List<ServerSocketHandler> connections = new ArrayList<>();
 
+
     public void addConnections (ServerSocketHandler socketHandler) {
         connections.add(socketHandler);
     }

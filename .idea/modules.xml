@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Classroom.iml" filepath="$PROJECT_DIR$/.idea/Classroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" filepath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM/MVVM.iml" filepath="$PROJECT_DIR$/MVVM/MVVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMI/RMI.iml" filepath="$PROJECT_DIR$/RMI/RMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets/Sockets.iml" filepath="$PROJECT_DIR$/Sockets/Sockets.iml" />
       <module fileurl="file://$PROJECT_DIR$/StatePattern/StatePattern.iml" filepath="$PROJECT_DIR$/StatePattern/StatePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
