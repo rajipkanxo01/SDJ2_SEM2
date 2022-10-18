@@ -17,11 +17,7 @@ public class Counter {
         }
         value++;
         notifyAll();
-//        if (value > max) {
-//            value++;
-//            Thread.currentThread().setName("Increment");
-//            System.out.println(value + ": " + Thread.currentThread().getName());
-//        }
+
     }
 
     public synchronized void decrement() throws InterruptedException {
@@ -30,11 +26,7 @@ public class Counter {
         }
         value--;
         notifyAll();
-//        if (value < min) {
-//            value--;
-//            Thread.currentThread().setName("Decrement");
-//            System.out.println(value + ": " + Thread.currentThread().getName());
-//        }
+
     }
 
     public long getValue() {

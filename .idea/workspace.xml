@@ -2,13 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/client/ClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/client/RunClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/server/RunServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/server/ServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/shared/UpperCaseServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/client/ClientSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/client/IdClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/client/StartIdClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/server/IdServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/server/ServerSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/server/StartIdServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/shared/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/client/ClientImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/client/RunClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/server/RunServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/server/ServerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/shared/UpperCaseClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/shared/UpperCaseServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/client/ClientImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/client/RunClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/server/RunServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/server/ServerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/shared/UpperCaseServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/client/ClientSocketHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/client/IdClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/client/StartIdClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/server/IdServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/server/ServerSocketHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/server/StartIdServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/shared/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Classroom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Classroom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets/Sockets.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets/Sockets.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets/src/chatExampleMulti/server/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets/src/chatExampleMulti/server/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/view/temperature/TemperatureViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVVM/temperaturePresenter/view/temperature/TemperatureViewModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets/chatExampleMulti/server/ConnectionPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets/chatExampleMulti/server/ConnectionPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/incrementAndDecrement/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/incrementAndDecrement/Counter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,30 +68,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom/Sockets/src/echoMultiClient&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Sockets_MVVM/src/upperCaseSocketsMVVM",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "two.files.diff.last.used.file": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="regularAndVikingDie" />
@@ -72,11 +100,11 @@
       <recent name="automaticDoor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets_MVVM\src\upperCaseSocketsMVVM" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets_MVVM\src\toUpperCase" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\RMI\src\callback\shared" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets\src\echoMultiClient" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\temperaturePresenter" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Observer\src" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets\src\message" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\temperaturePresenter\view\temperature" />
@@ -92,20 +120,20 @@
       <recent name="chatExampleMulti.shared" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="upperCaseSocketsMVVM.client.core" />
+      <recent name="multiClientsWithId.shared" />
       <recent name="log" />
       <recent name="temperaturePresenter.temperature.model" />
       <recent name="pieChart.core" />
-      <recent name="taskList.util" />
-      <recent name="thermometer.temperature.mediator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestFactory">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temperaturePresenter.Main" />
-      <module name="MVVM" />
+  <component name="RunManager" selected="Application.upperCaseSocketsMVVM.client.RunUppercaseApp">
+    <configuration name="RunServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="toUpperCase.server.RunServer" />
+      <module name="Sockets_MVVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temperaturePresenter.*" />
+          <option name="PATTERN" value="toUpperCase.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chatExampleMulti.server.StartChatServer" />
-      <module name="Sockets" />
+    <configuration name="StartTimestampApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timeStamp.StartTimestampApp" />
+      <module name="Sockets_MVVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chatExampleMulti.server.*" />
+          <option name="PATTERN" value="timeStamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="log.Test" />
-      <module name="Singleton" />
+    <configuration name="toUpperCase.client.RunUppercaseApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="toUpperCase.client.RunUppercaseApp" />
+      <module name="Sockets_MVVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="log.*" />
+          <option name="PATTERN" value="toUpperCase.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regularAndVikingDie.TestFactory" />
-      <module name="FactoryPattern" />
+    <configuration name="upperCaseSocketsMVVM.client.RunUppercaseApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="upperCaseSocketsMVVM.client.RunUppercaseApp" />
+      <module name="Sockets_MVVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="regularAndVikingDie.*" />
+          <option name="PATTERN" value="upperCaseSocketsMVVM.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chatExampleMulti.client.StartChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chatExampleMulti.client.StartChatClient" />
-      <module name="Sockets" />
+    <configuration name="upperCaseSocketsMVVM.server.RunServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="upperCaseSocketsMVVM.server.RunServer" />
+      <module name="Sockets_MVVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chatExampleMulti.client.*" />
+          <option name="PATTERN" value="upperCaseSocketsMVVM.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +194,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestFactory" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.chatExampleMulti.client.StartChatClient" />
-      <item itemvalue="Application.StartChatServer" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.upperCaseSocketsMVVM.client.RunUppercaseApp" />
+      <item itemvalue="Application.upperCaseSocketsMVVM.server.RunServer" />
+      <item itemvalue="Application.RunServer" />
+      <item itemvalue="Application.toUpperCase.client.RunUppercaseApp" />
+      <item itemvalue="Application.StartTimestampApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestFactory" />
-        <item itemvalue="Application.chatExampleMulti.client.StartChatClient" />
-        <item itemvalue="Application.StartChatServer" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.upperCaseSocketsMVVM.client.RunUppercaseApp" />
+        <item itemvalue="Application.upperCaseSocketsMVVM.server.RunServer" />
+        <item itemvalue="Application.toUpperCase.client.RunUppercaseApp" />
+        <item itemvalue="Application.RunServer" />
+        <item itemvalue="Application.StartTimestampApp" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +300,13 @@
       <workItem from="1665231398334" duration="5731000" />
       <workItem from="1665309736252" duration="1982000" />
       <workItem from="1665388893497" duration="3522000" />
+      <workItem from="1665643246358" duration="3773000" />
+      <workItem from="1665856187769" duration="5889000" />
+      <workItem from="1665863665099" duration="1436000" />
+      <workItem from="1665914634263" duration="315000" />
+      <workItem from="1665915896765" duration="8694000" />
+      <workItem from="1665936141104" duration="6000" />
+      <workItem from="1665941900799" duration="2294000" />
     </task>
     <servers />
   </component>
