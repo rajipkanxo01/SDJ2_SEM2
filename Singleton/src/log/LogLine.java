@@ -11,6 +11,7 @@ public class LogLine {
 
     public String getText() {
         return text;
+
     }
 
     public DateTime getDateTime() {

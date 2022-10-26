@@ -36,14 +36,16 @@ public class SocketHandler implements Runnable {
     public void run() {
         try {
             Request request = (Request) inFromClient.readObject();
-            if("Listener".equals(request.getType())) {
-                textManager.addListener("NewLogEntry", this::onNewLogEntry);
-            } else if("Uppercase".equals(request.getType())) {
-                String result = textManager.toUppercase((String) request.getArg());
-                outToClient.writeObject(new Request("Uppercase", result));
-            } else if("FetchLog".equals(request.getType())) {
-                List<LogEntry> log = textManager.getLog();
-                outToClient.writeObject(new Request("FetchLog", log));
+            switch (request.getType()) {
+                case "Listener" -> textManager.addListener("NewLogEntry", this::onNewLogEntry);
+                case "Uppercase" -> {
+                    String result = textManager.toUppercase((String) request.getArg());
+                    outToClient.writeObject(new Request("Uppercase", result));
+                }
+                case "FetchLog" -> {
+                    List<LogEntry> log = textManager.getLog();
+                    outToClient.writeObject(new Request("FetchLog", log));
+                }
             }
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();

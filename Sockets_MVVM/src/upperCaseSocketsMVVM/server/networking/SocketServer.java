@@ -24,6 +24,7 @@ public class SocketServer {
             List<SocketHandler> handlers = new ArrayList<SocketHandler>();
             while (true) {
                 Socket socket = welcomeSocket.accept();
+                System.out.println("client connected");
                 SocketHandler handler = new SocketHandler(socket, textManager);
                 handlers.add(handler);
                 System.out.println("handlers:" + handlers.size());

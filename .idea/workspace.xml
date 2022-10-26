@@ -2,41 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/client/ClientImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/client/RunClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/server/RunServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/server/ServerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/shared/UpperCaseServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/client/ClientSocketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/client/IdClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/client/StartIdClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/server/IdServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/server/ServerSocketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/server/StartIdServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sockets/src/multiClientsWithId/shared/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/client/ClientImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/client/RunClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/server/RunServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/server/ServerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/shared/UpperCaseClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/callback/shared/UpperCaseServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/client/ClientImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/client/RunClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/server/RunServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/server/ServerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/shared/UpperCaseServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/client/ClientSocketHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/client/IdClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/client/StartIdClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/server/IdServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/server/ServerSocketHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/server/StartIdServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sockets/multiClientsWithId/shared/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Classroom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Classroom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/src/incrementAndDecrement/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/incrementAndDecrement/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/client/ClientImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/client/RunClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/server/RunServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/server/ServerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/shared/UpperCaseServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton/src/log/LogLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/src/log/LogLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/StartTimestampApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/TimestampApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/core/ModelFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/core/ViewHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/core/ViewModelFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/model/DataModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/model/DataModelManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/view/TimestampController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/view/TimestampView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/view/TimestampViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/client/network/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/client/network/SocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/server/networking/SocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/server/networking/SocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/server/networking/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/server/networking/SocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/StartTimestampApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/TimestampApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/core/ModelFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/core/ViewHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/core/ViewModelFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/model/DataModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/model/DataModelManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/model/PropertyChangeSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/view/TimestampController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/view/TimestampView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/view/TimestampViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/client/network/SocketClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/client/network/SocketClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/server/networking/SocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/server/networking/SocketHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/server/networking/SocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/server/networking/SocketServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Sockets_MVVM/src/upperCaseSocketsMVVM",
+    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Strategy_Pattern/src/filterList",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -94,17 +94,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="sortingTreeSet" />
+      <recent name="robot_behaviour" />
+      <recent name="timeStamp.server.network" />
       <recent name="regularAndVikingDie" />
       <recent name="taskList.model" />
-      <recent name="thermometer.temperature.core" />
-      <recent name="automaticDoor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Strategy_Pattern\src\filterList" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets_MVVM\src\timeStamp\client\model" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets_MVVM\src\timeStamp\server\model" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets_MVVM\src\upperCaseSocketsMVVM" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets_MVVM\src\toUpperCase" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\RMI\src\callback\shared" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets\src\echoMultiClient" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\temperaturePresenter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\temperaturePresenter\view\temperature" />
@@ -116,24 +117,28 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="timeStamp.server.model" />
+      <recent name="timeStamp.server" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="chatExampleMulti.shared" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="filterList" />
+      <recent name="timeStamp.shared.util" />
       <recent name="upperCaseSocketsMVVM.client.core" />
       <recent name="multiClientsWithId.shared" />
       <recent name="log" />
-      <recent name="temperaturePresenter.temperature.model" />
-      <recent name="pieChart.core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.upperCaseSocketsMVVM.client.RunUppercaseApp">
-    <configuration name="RunServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="toUpperCase.server.RunServer" />
-      <module name="Sockets_MVVM" />
+  <component name="RunManager" selected="Application.TestFilter">
+    <configuration name="TestCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compressionStrategy.TestCompression" />
+      <module name="Strategy_Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="toUpperCase.server.*" />
+          <option name="PATTERN" value="compressionStrategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartTimestampApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="timeStamp.StartTimestampApp" />
-      <module name="Sockets_MVVM" />
+    <configuration name="TestFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="filterList.TestFilter" />
+      <module name="Strategy_Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="timeStamp.*" />
+          <option name="PATTERN" value="filterList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="toUpperCase.client.RunUppercaseApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="toUpperCase.client.RunUppercaseApp" />
-      <module name="Sockets_MVVM" />
+    <configuration name="TestSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sortingTreeSet.TestSorting" />
+      <module name="Strategy_Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="toUpperCase.client.*" />
+          <option name="PATTERN" value="sortingTreeSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +199,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestFilter" />
+      <item itemvalue="Application.TestCompression" />
+      <item itemvalue="Application.TestSorting" />
       <item itemvalue="Application.upperCaseSocketsMVVM.client.RunUppercaseApp" />
       <item itemvalue="Application.upperCaseSocketsMVVM.server.RunServer" />
-      <item itemvalue="Application.RunServer" />
-      <item itemvalue="Application.toUpperCase.client.RunUppercaseApp" />
-      <item itemvalue="Application.StartTimestampApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.upperCaseSocketsMVVM.client.RunUppercaseApp" />
+        <item itemvalue="Application.TestFilter" />
+        <item itemvalue="Application.TestSorting" />
+        <item itemvalue="Application.TestCompression" />
         <item itemvalue="Application.upperCaseSocketsMVVM.server.RunServer" />
-        <item itemvalue="Application.toUpperCase.client.RunUppercaseApp" />
-        <item itemvalue="Application.RunServer" />
-        <item itemvalue="Application.StartTimestampApp" />
+        <item itemvalue="Application.upperCaseSocketsMVVM.client.RunUppercaseApp" />
       </list>
     </recent_temporary>
   </component>
@@ -307,6 +312,30 @@
       <workItem from="1665915896765" duration="8694000" />
       <workItem from="1665936141104" duration="6000" />
       <workItem from="1665941900799" duration="2294000" />
+      <workItem from="1665998040480" duration="45000" />
+      <workItem from="1666040095241" duration="6810000" />
+      <workItem from="1666110637706" duration="693000" />
+      <workItem from="1666124171526" duration="668000" />
+      <workItem from="1666135960912" duration="22000" />
+      <workItem from="1666136306753" duration="6711000" />
+      <workItem from="1666146278957" duration="2667000" />
+      <workItem from="1666204916884" duration="696000" />
+      <workItem from="1666206053892" duration="772000" />
+      <workItem from="1666210271745" duration="1371000" />
+      <workItem from="1666219894497" duration="2071000" />
+      <workItem from="1666223146025" duration="11000" />
+      <workItem from="1666349116576" duration="39000" />
+      <workItem from="1666373679358" duration="1115000" />
+      <workItem from="1666385483387" duration="3415000" />
+      <workItem from="1666406985271" duration="666000" />
+      <workItem from="1666451153443" duration="41000" />
+      <workItem from="1666600161718" duration="1291000" />
+      <workItem from="1666601767691" duration="897000" />
+      <workItem from="1666681345625" duration="572000" />
+      <workItem from="1666681939123" duration="6516000" />
+      <workItem from="1666697719022" duration="48000" />
+      <workItem from="1666698008584" duration="600000" />
+      <workItem from="1666796501280" duration="1736000" />
     </task>
     <servers />
   </component>

@@ -40,6 +40,7 @@ import java.util.List;
             outToServer.writeObject(new Request("Listener", null));
             while (true) {
                 Request request = (Request) inFromServer.readObject();
+                System.out.println("request");
                 support.firePropertyChange(request.getType(), null, request.getArg());
             }
         } catch (IOException | ClassNotFoundException e) {
@@ -52,7 +53,7 @@ import java.util.List;
     public String toUppercase(String str) {
         try {
             Request response = request(str, "Uppercase");
-            return (String)response.getArg();
+            return (String) response.getArg();
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -83,6 +84,7 @@ import java.util.List;
         support.addPropertyChangeListener(eventName, listener);
         System.out.println("support.getPropertyChangeListeners().length:" + support.getPropertyChangeListeners().length);
     }
+
 
     @Override
     public void removeListener(String eventName, PropertyChangeListener listener) {
