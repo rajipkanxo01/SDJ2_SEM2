@@ -2,41 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/RMI/src/multipleBridges/client/RemoteClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/multipleBridges/client/StartClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/multipleBridges/server/ServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/multipleBridges/server/StringChangingServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/multipleBridges/server/ToRandomCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/multipleBridges/server/ToUpperCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/multipleBridges/shared/IStringChangingServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/multipleBridges/shared/IToRandomCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/multipleBridges/shared/IToUpperCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/printMessage/client/ClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/printMessage/client/TextClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/printMessage/server/RMITextServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/printMessage/server/ServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/printMessage/shared/TextServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/client/RMIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/client/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCaseCallback/client/RMIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCaseCallback/client/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCaseCallback/server/RunServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCaseCallback/server/ServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCaseCallback/shared/UpperCaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/toUpperCaseCallback/shared/UpperCaseServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseAndLowercase/client/RMIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseAndLowercase/client/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseAndLowercase/server/LowerCaseServerImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseAndLowercase/server/RunServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseAndLowercase/server/ServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseAndLowercase/server/UppercaseServerImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseAndLowercase/shared/LowerCaseServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseAndLowercase/shared/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseAndLowercase/shared/UpperCaseServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseBroadcast/client/RMIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseBroadcast/client/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseBroadcast/server/RunServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseBroadcast/server/ServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseBroadcast/shared/UpperCaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/uppercaseBroadcast/shared/UpperCaseServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/RunUppercaseApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/UppercaseApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/core/ClientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/core/ModelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/core/ViewHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/core/ViewModelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/model/TextConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/model/TextConverterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/network/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/views/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/views/log/Log.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/views/log/LogViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/views/log/LogViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/views/uppercase/UppercaseView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/views/uppercase/UppercaseViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/views/uppercase/UppercaseViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/server/RunServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/server/model/TextManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/server/model/TextManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/shared/transferobjects/LogEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/shared/transferobjects/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/shared/util/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/multipleBridges/client/RemoteClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/multipleBridges/client/StartClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/multipleBridges/server/ServerMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/multipleBridges/server/StringChangingServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/multipleBridges/server/ToRandomCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/multipleBridges/server/ToUpperCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/multipleBridges/shared/IStringChangingServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/multipleBridges/shared/IToRandomCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/multipleBridges/shared/IToUpperCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/printMessage/client/ClientMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/printMessage/client/TextClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/printMessage/server/RMITextServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/printMessage/server/ServerMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/printMessage/shared/TextServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/client/RMIClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/client/TestClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCaseCallback/client/RMIClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCaseCallback/client/TestClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCaseCallback/server/RunServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCaseCallback/server/ServerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCaseCallback/shared/UpperCaseClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCaseCallback/shared/UpperCaseServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseAndLowercase/client/RMIClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseAndLowercase/client/TestClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseAndLowercase/server/LowerCaseServerImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseAndLowercase/server/RunServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseAndLowercase/server/ServerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseAndLowercase/server/UppercaseServerImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseAndLowercase/shared/LowerCaseServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseAndLowercase/shared/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseAndLowercase/shared/UpperCaseServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseBroadcast/client/RMIClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseBroadcast/client/TestClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseBroadcast/server/RunServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseBroadcast/server/ServerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseBroadcast/shared/UpperCaseClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/RMI/uppercaseBroadcast/shared/UpperCaseServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Classroom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Classroom.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVVM/MVVM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MVVM/MVVM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/Observer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/Observer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/client/ClientImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/client/RunClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/server/RunServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/server/ServerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/shared/UpperCaseServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Singleton/src/log/LogLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/src/log/LogLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/StartTimestampApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/TimestampApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/core/ModelFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/core/ViewHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/core/ViewModelFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/model/DataModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/model/DataModelManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/view/TimestampController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/view/TimestampView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/timeStamp/client/view/TimestampViewModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/client/network/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/client/network/SocketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/server/networking/SocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/server/networking/SocketHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/server/networking/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/server/networking/SocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/StartTimestampApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/TimestampApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/core/ModelFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/core/ViewHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/core/ViewModelFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/model/DataModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/model/DataModelManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/model/PropertyChangeSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/view/TimestampController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/view/TimestampView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/timeStamp/view/TimestampViewModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/client/network/SocketClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/client/network/SocketClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/server/networking/SocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/server/networking/SocketHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/server/networking/SocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sockets_MVVM/upperCaseSocketsMVVM/server/networking/SocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/server/RunServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/server/RunServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/server/ServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/server/ServerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI/src/toUpperCase/shared/UpperCaseServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RMI/src/toUpperCase/shared/UpperCaseServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/callback/client/ClientImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/callback/client/RunClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/callback/server/RunServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/callback/server/ServerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/callback/shared/UpperCaseClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/callback/shared/UpperCaseServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/toUpperCase/client/ClientImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/toUpperCase/client/RunClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/toUpperCase/server/RunServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/server/RunServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/toUpperCase/server/ServerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/server/ServerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMI/toUpperCase/shared/UpperCaseServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RMI/toUpperCase/shared/UpperCaseServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +131,7 @@
         <option value="FxmlFile" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -79,16 +162,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ToolWindowRun.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Strategy_Pattern/src/filterList",
+    "last_opened_file_path": "C:/Users/pdlra/IdeaProjects/SDJ2-TROELS",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "two.files.diff.last.used.file": "D:/VIA/SEM-2/Projects/SDJ2/Classroom/Observer/src/soccerMatch/DreamTeamFan.java"
   }
 }]]></component>
@@ -101,18 +185,18 @@
       <recent name="taskList.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Strategy_Pattern\src\filterList" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets_MVVM\src\timeStamp\client\model" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets_MVVM\src\timeStamp\server\model" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets_MVVM\src\upperCaseSocketsMVVM" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Sockets_MVVM\src\toUpperCase" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\AdapterPattern\src\stringsQueueBasedOnList" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\ProducerConsumer\src\blockingQueue" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\UnitTesting\src\simpleQueue" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\RMI_MVVM\src" />
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\RMI\src\uppercaseBroadcast" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\UnitTesting\src" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\temperaturePresenter\view\temperature" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\MVVM\src\taskList\view\all" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Observer\src" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\StatePattern\src" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\StatePattern" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -122,96 +206,114 @@
       <recent name="timeStamp.server" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="stringsQueueBasedOnList" />
+      <recent name="clock" />
+      <recent name="simpleQueue" />
       <recent name="chatExampleMulti.shared" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="uppercaseAndLowercase.shared" />
+      <recent name="uppercaseBroadcast.shared" />
+      <recent name="toUpperCaseCallback.client" />
+      <recent name="toUpperCaseCallback.shared" />
       <recent name="filterList" />
-      <recent name="timeStamp.shared.util" />
-      <recent name="upperCaseSocketsMVVM.client.core" />
-      <recent name="multiClientsWithId.shared" />
-      <recent name="log" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestFilter">
-    <configuration name="TestCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="compressionStrategy.TestCompression" />
-      <module name="Strategy_Pattern" />
+  <component name="RunManager" selected="JUnit.QueueTest.containsNotElement">
+    <configuration name="QueueTest.containsElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdapterPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="compressionStrategy.*" />
+          <option name="PATTERN" value="stringsQueueBasedOnList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="stringsQueueBasedOnList" />
+      <option name="MAIN_CLASS_NAME" value="stringsQueueBasedOnList.QueueTest" />
+      <option name="METHOD_NAME" value="containsElement" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="filterList.TestFilter" />
-      <module name="Strategy_Pattern" />
+    <configuration name="QueueTest.containsNotElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdapterPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="filterList.*" />
+          <option name="PATTERN" value="stringsQueueBasedOnList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="stringsQueueBasedOnList" />
+      <option name="MAIN_CLASS_NAME" value="stringsQueueBasedOnList.QueueTest" />
+      <option name="METHOD_NAME" value="containsNotElement" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sortingTreeSet.TestSorting" />
-      <module name="Strategy_Pattern" />
+    <configuration name="QueueTest.enqueueNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdapterPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sortingTreeSet.*" />
+          <option name="PATTERN" value="stringsQueueBasedOnList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="stringsQueueBasedOnList" />
+      <option name="MAIN_CLASS_NAME" value="stringsQueueBasedOnList.QueueTest" />
+      <option name="METHOD_NAME" value="enqueueNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="upperCaseSocketsMVVM.client.RunUppercaseApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="upperCaseSocketsMVVM.client.RunUppercaseApp" />
-      <module name="Sockets_MVVM" />
+    <configuration name="QueueTest.indexOfElementFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdapterPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="upperCaseSocketsMVVM.client.*" />
+          <option name="PATTERN" value="stringsQueueBasedOnList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="stringsQueueBasedOnList" />
+      <option name="MAIN_CLASS_NAME" value="stringsQueueBasedOnList.QueueTest" />
+      <option name="METHOD_NAME" value="indexOfElementFound" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="upperCaseSocketsMVVM.server.RunServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="upperCaseSocketsMVVM.server.RunServer" />
-      <module name="Sockets_MVVM" />
+    <configuration name="QueueTest.indexOfElementNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdapterPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="upperCaseSocketsMVVM.server.*" />
+          <option name="PATTERN" value="stringsQueueBasedOnList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="stringsQueueBasedOnList" />
+      <option name="MAIN_CLASS_NAME" value="stringsQueueBasedOnList.QueueTest" />
+      <option name="METHOD_NAME" value="indexOfElementNotFound" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestFilter" />
-      <item itemvalue="Application.TestCompression" />
-      <item itemvalue="Application.TestSorting" />
-      <item itemvalue="Application.upperCaseSocketsMVVM.client.RunUppercaseApp" />
-      <item itemvalue="Application.upperCaseSocketsMVVM.server.RunServer" />
+      <item itemvalue="JUnit.QueueTest.containsElement" />
+      <item itemvalue="JUnit.QueueTest.containsNotElement" />
+      <item itemvalue="JUnit.QueueTest.enqueueNull" />
+      <item itemvalue="JUnit.QueueTest.indexOfElementFound" />
+      <item itemvalue="JUnit.QueueTest.indexOfElementNotFound" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestFilter" />
-        <item itemvalue="Application.TestSorting" />
-        <item itemvalue="Application.TestCompression" />
-        <item itemvalue="Application.upperCaseSocketsMVVM.server.RunServer" />
-        <item itemvalue="Application.upperCaseSocketsMVVM.client.RunUppercaseApp" />
+        <item itemvalue="JUnit.QueueTest.containsNotElement" />
+        <item itemvalue="JUnit.QueueTest.containsElement" />
+        <item itemvalue="JUnit.QueueTest.indexOfElementNotFound" />
+        <item itemvalue="JUnit.QueueTest.indexOfElementFound" />
+        <item itemvalue="JUnit.QueueTest.enqueueNull" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +437,25 @@
       <workItem from="1666681939123" duration="6516000" />
       <workItem from="1666697719022" duration="48000" />
       <workItem from="1666698008584" duration="600000" />
-      <workItem from="1666796501280" duration="1736000" />
+      <workItem from="1666796501280" duration="8221000" />
+      <workItem from="1666815437271" duration="8585000" />
+      <workItem from="1666850487515" duration="7052000" />
+      <workItem from="1666881203847" duration="14000" />
+      <workItem from="1666944747943" duration="1496000" />
+      <workItem from="1666948524298" duration="8000" />
+      <workItem from="1666953486188" duration="30000" />
+      <workItem from="1667294177413" duration="3799000" />
+      <workItem from="1667767428853" duration="619000" />
+      <workItem from="1667897298856" duration="1577000" />
+      <workItem from="1667902970934" duration="688000" />
+      <workItem from="1668107530020" duration="14000" />
+      <workItem from="1668499269653" duration="5321000" />
+      <workItem from="1668504642937" duration="21000" />
+      <workItem from="1668504881438" duration="1607000" />
+      <workItem from="1668520843585" duration="405000" />
+      <workItem from="1668550375928" duration="596000" />
+      <workItem from="1668590356707" duration="28000" />
+      <workItem from="1669235096271" duration="917000" />
     </task>
     <servers />
   </component>
