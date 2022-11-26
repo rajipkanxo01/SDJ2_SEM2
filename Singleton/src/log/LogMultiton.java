@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class LogMultiton {
 
-    private static final Map<String, LogMultiton> map = new HashMap<>();
+    private static  Map<String, LogMultiton> map = new HashMap<>();
     private String fileName;
     private ArrayList<LogLine> lines = new ArrayList<>();
 

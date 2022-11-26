@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package singletonMultiton;
 
 public class Log {
     private static Log instance;
