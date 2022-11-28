@@ -22,40 +22,43 @@ public class King implements Runnable {
 
     @Override
     public void run() {
-//        Random random = new Random();
-//        boolean party = true;
-//        while (true) {
-//            treasureRoom.acquireWrite();
-//            log.printLog("\n King is counting valuables to host party!!!");
-//            int value = random.nextInt(20, 50);
-//            while (valuables.size() >= value) {
-//                Valuable valuable = treasureRoom.retrieveValuable();
-//                valuables.add(valuable);
-//                if (treasureRoom.lookValuables() < value) {
-//                    log.printLog("Not Enough Valuables! King cancelled the party!");
-//                    party = false;
-//                    break;
-//                }
-//            }
-//            if (!party) {
-//                for (Valuable valuable : valuables) {
-//                    treasureRoom.addValuable(valuable);
-//                    try {
-//                        Thread.sleep(2000);
-//                    } catch (InterruptedException e) {
-//                        throw new RuntimeException(e);
-//                    }
-//                    break;
-//                }
-//            } else {
-//                log.printLog("King is throwing party !!! Enjoy Everyone \n");
-//                try {
-//                    Thread.sleep(2000);
-//                } catch (InterruptedException e) {
-//                    throw new RuntimeException(e);
-//                }
-//            }
-//
-//        }
+        Random random = new Random();
+        int currentWorthValues = 0;
+        boolean canKingHostParty = true;
+        while (true) {
+            int randomValue = random.nextInt(80, 200);
+            log.printLog("\nRequired Valuable worth to party: " + randomValue);
+            treasureRoom.acquireWrite();
+            while (currentWorthValues <= randomValue) {
+                System.out.println("\t" + treasureRoom.lookValuables() +  "\t");
+                if (treasureRoom.lookValuables() == 0) {
+                    canKingHostParty = false;
+                    break;
+                }
+                Valuable valuable = treasureRoom.retrieveValuable();
+                valuables.add(valuable);
+                currentWorthValues += valuable.getValue();
+
+            }
+            if (!canKingHostParty) {
+                for (Valuable tempValuable : valuables) {
+                    treasureRoom.addValuable(tempValuable);
+                }
+                valuables.clear();
+                log.printLog("Not Enough Valuables Worth!!! Can't host party!!!! \n");
+            }
+
+            if (canKingHostParty) {
+                valuables.clear();
+                log.printLog("Everyone enjoy kings party!! \n");
+
+            }
+            treasureRoom.releaseWrite();
+            try {
+                Thread.sleep(15000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 }

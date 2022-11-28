@@ -22,7 +22,20 @@ public class Valuable {
         return instance;
     }
 
-
+    public int getValue() {
+        if (allInstances.get("Diamond") == this) {
+            return 30;
+        } else if (allInstances.get("GoldNugget") == this) {
+            return 20;
+        } else if (allInstances.get("Jewel") == this) {
+            return 15;
+        } else if (allInstances.get("Ruby") == this) {
+            return 10;
+        } else if (allInstances.get("Wooden Coin") == this) {
+            return 5;
+        }
+        return -1;
+    }
 
 
 }

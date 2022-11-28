@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d84868-9181-4e45-bcf5-dbeae1d7ad8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment4/src/readerWriter/writer/ValuableTransporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Classroom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Classroom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/Assignment3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/Assignment4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/src/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/src/singletonMultiton/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/src/valuable/Diamond.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/src/valuable/GoldNugget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/src/valuable/Jewel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/src/valuable/Ruby.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/src/valuable/Valuable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/src/valuable/WoodenCoin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/views/uppercase/UppercaseView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/RMI_MVVM/src/upperCaseRMIMVVM/client/views/uppercase/UppercaseView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Singleton/src/log/LogMultiton.java" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/src/log/LogMultiton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/client/views/uppercase/UppercaseView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Sockets_MVVM/src/upperCaseSocketsMVVM/client/views/uppercase/UppercaseView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/Assignment4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/Assignment4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/src/readerWriter/TreasureRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/src/readerWriter/TreasureRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/src/readerWriter/TreasureRoomDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/src/readerWriter/TreasureRoomDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/src/readerWriter/TreasureRoomGuardsMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/src/proxy/TreasureRoomGuardsMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/src/readerWriter/reader/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/src/readerWriter/reader/Accountant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/src/readerWriter/writer/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/src/readerWriter/writer/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/src/readerWriter/writer/ValuableTransporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/src/readerWriter/writer/ValuableTransporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/src/singletonMultiton/Valuable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/src/singletonMultiton/Valuable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment4/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/TreasureRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/TreasureRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/TreasureRoomDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/TreasureRoomDoor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/TreasureRoomGuardsMan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/reader/Accountant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/reader/Accountant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/writer/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/writer/King.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/writer/ValuableTransporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment4/readerWriter/writer/ValuableTransporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/singletonMultiton/Valuable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment4/singletonMultiton/Valuable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/MyArrayList-0.1.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/VIA/SEM-2/Projects/SDJ2/Classroom/Assignment4/src/utils&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -83,11 +86,11 @@
       <recent name="taskList.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\Assignment4\src\utils" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\AdapterPattern\src\stringsQueueBasedOnList" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\ProducerConsumer\src\blockingQueue" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\UnitTesting\src\simpleQueue" />
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\RMI_MVVM\src" />
-      <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\RMI\src\uppercaseBroadcast" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VIA\SEM-2\Projects\SDJ2\Classroom\UnitTesting\src" />
@@ -344,7 +347,11 @@
       <workItem from="1669368041037" duration="794000" />
       <workItem from="1669379726019" duration="357000" />
       <workItem from="1669410137766" duration="4946000" />
-      <workItem from="1669415978987" duration="8618000" />
+      <workItem from="1669415978987" duration="8903000" />
+      <workItem from="1669464581750" duration="4826000" />
+      <workItem from="1669480437392" duration="2976000" />
+      <workItem from="1669551698300" duration="2158000" />
+      <workItem from="1669562550955" duration="3826000" />
     </task>
     <servers />
   </component>

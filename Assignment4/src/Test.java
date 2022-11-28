@@ -1,11 +1,13 @@
 import adapter.Deposit;
 import producerConsumer.Mine;
 import producerConsumer.Miner;
+import proxy.TreasureRoomGuardsMan;
 import readerWriter.reader.Accountant;
 import readerWriter.writer.King;
 import readerWriter.writer.ValuableTransporter;
 import readerWriter.TreasureRoom;
 import readerWriter.TreasureRoomDoor;
+import singletonMultiton.Valuable;
 
 public class Test {
     public static void main(String[] args) {
@@ -18,7 +20,7 @@ public class Test {
         TreasureRoomDoor treasureRoom = new TreasureRoom();
 
         ValuableTransporter transporter = new ValuableTransporter(deposit, treasureRoom);
-        Accountant accountant = new Accountant(treasureRoom);
+        Accountant accountant = new Accountant(new TreasureRoomGuardsMan(treasureRoom));
         King king = new King(treasureRoom);
 
         Thread minerThread1 = new Thread(miner1);
@@ -33,6 +35,9 @@ public class Test {
         transporterThread.start();
         accountantTread.start();
         kingThread.start();
+
+        Valuable diamond = Valuable.getValuable("GoldNugget");
+        System.out.println(diamond.getValue());
 
     }
 }

@@ -12,12 +12,12 @@ import java.util.Random;
 public class ValuableTransporter implements Runnable {
     private Deposit deposit;
     private List<Valuable> transportingValuables;
-    private TreasureRoomDoor treasureRoom;
+    private TreasureRoomDoor guardsMan;
     private Log log;
 
-    public ValuableTransporter(Deposit deposit, TreasureRoomDoor treasureRoom) {
+    public ValuableTransporter(Deposit deposit, TreasureRoomDoor guardsMan) {
         this.deposit = deposit;
-        this.treasureRoom = treasureRoom;
+        this.guardsMan = guardsMan;
 
         log = Log.getInstance();
         transportingValuables = new ArrayList<>();
@@ -40,9 +40,9 @@ public class ValuableTransporter implements Runnable {
             }
             log.printLog("Target reached for transporter.");
             log.printLog("Now.. Transporting to Treasure Room!!!");
-            treasureRoom.acquireWrite();
+            guardsMan.acquireWrite();
             for (Valuable transportingValuable : transportingValuables) {
-                treasureRoom.addValuable(transportingValuable);
+                guardsMan.addValuable(transportingValuable);
             }
             transportingValuables.clear();
             try {
@@ -50,7 +50,7 @@ public class ValuableTransporter implements Runnable {
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            treasureRoom.releaseWrite();
+            guardsMan.releaseWrite();
             log.printLog("Returned from treasure room \n");
         }
     }

@@ -5,10 +5,10 @@ import singletonMultiton.Log;
 
 public class Accountant implements Runnable {
     private Log log;
-    private TreasureRoomDoor treasureRoom;
+    private TreasureRoomDoor guardsMan;
 
-    public Accountant(TreasureRoomDoor treasureRoom) {
-        this.treasureRoom = treasureRoom;
+    public Accountant(TreasureRoomDoor guardsMan) {
+        this.guardsMan = guardsMan;
 
         log = Log.getInstance();
     }
@@ -16,17 +16,20 @@ public class Accountant implements Runnable {
     @Override
     public void run() {
         while (true) {
-            treasureRoom.acquireRead();
-            int valuables = treasureRoom.lookValuables();
+            guardsMan.acquireRead();
+            int valuables = guardsMan.lookValuables();
+            int totalValuableWorth = guardsMan.getTotalWorthOfValuables();
+            log.printLog("\nAccountant started counting number of valuables!!!");
             try {
-                Thread.sleep(6000);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
             log.printLog("\nAccountant finished counting number of valuables!!!");
-            log.printLog("Number of Valuables: " + valuables + "\n");
+            log.printLog("Number of Valuables: " + valuables);
+            log.printLog("Total Worth of Valuables: " + totalValuableWorth + "\n");
 
-            treasureRoom.releaseRead();
+            guardsMan.releaseRead();
             try {
                 Thread.sleep(6000);
             } catch (InterruptedException e) {

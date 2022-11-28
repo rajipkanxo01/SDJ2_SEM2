@@ -9,6 +9,8 @@ public interface TreasureRoomDoor {
 
     int lookValuables();
 
+    int getTotalWorthOfValuables();
+
     void acquireRead();
 
     void releaseRead();

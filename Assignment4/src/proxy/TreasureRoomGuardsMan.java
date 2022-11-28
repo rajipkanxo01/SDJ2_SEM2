@@ -1,5 +1,7 @@
-package readerWriter;
+package proxy;
 
+import readerWriter.TreasureRoom;
+import readerWriter.TreasureRoomDoor;
 import singletonMultiton.Valuable;
 
 public class TreasureRoomGuardsMan implements TreasureRoomDoor {
@@ -8,8 +10,8 @@ public class TreasureRoomGuardsMan implements TreasureRoomDoor {
     private boolean isWriting;
     private int waitingWriters;
 
-    public TreasureRoomGuardsMan() {
-//        treasureRoomDoor = new TreasureRoom();
+    public TreasureRoomGuardsMan(TreasureRoomDoor treasureRoom) {
+        this.treasureRoomDoor = treasureRoom;
     }
 
     @Override
@@ -25,6 +27,11 @@ public class TreasureRoomGuardsMan implements TreasureRoomDoor {
     @Override
     public int lookValuables() {
         return treasureRoomDoor.lookValuables();
+    }
+
+    @Override
+    public int getTotalWorthOfValuables() {
+        return treasureRoomDoor.getTotalWorthOfValuables();
     }
 
     @Override

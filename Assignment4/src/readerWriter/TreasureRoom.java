@@ -1,5 +1,6 @@
 package readerWriter;
 
+import proxy.TreasureRoomGuardsMan;
 import singletonMultiton.Log;
 import singletonMultiton.Valuable;
 
@@ -12,7 +13,7 @@ public class TreasureRoom implements TreasureRoomDoor {
     private Log log;
 
     public TreasureRoom() {
-        guardsMan = new TreasureRoomGuardsMan();
+        guardsMan = new TreasureRoomGuardsMan(this);
 
         valuables = new ArrayList<>();
         log = Log.getInstance();
@@ -34,6 +35,15 @@ public class TreasureRoom implements TreasureRoomDoor {
     @Override
     public int lookValuables() {
         return valuables.size();
+    }
+
+    @Override
+    public int getTotalWorthOfValuables() {
+        int value = 0;
+        for (Valuable valuable : valuables) {
+            value += valuable.getValue();
+        }
+        return value;
     }
 
     @Override
